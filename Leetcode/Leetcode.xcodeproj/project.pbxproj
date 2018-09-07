@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F425826421422515002E793E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F425826321422515002E793E /* main.m */; };
 		F425826D214225FC002E793E /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = F425826C214225FC002E793E /* TwoSum.m */; };
+		F4470DF321425FAF00E9B9F9 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = F4470DF221425FAF00E9B9F9 /* ReverseInteger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		F425826321422515002E793E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F425826B214225FC002E793E /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
 		F425826C214225FC002E793E /* TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
+		F4470DF121425FAF00E9B9F9 /* ReverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseInteger.h; sourceTree = "<group>"; };
+		F4470DF221425FAF00E9B9F9 /* ReverseInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseInteger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				F425826A21422568002E793E /* Easy_1 */,
+				F4470DF021425FAF00E9B9F9 /* Easy_7 */,
 				F425826321422515002E793E /* main.m */,
 			);
 			path = Leetcode;
@@ -73,6 +77,15 @@
 				F425826C214225FC002E793E /* TwoSum.m */,
 			);
 			path = Easy_1;
+			sourceTree = "<group>";
+		};
+		F4470DF021425FAF00E9B9F9 /* Easy_7 */ = {
+			isa = PBXGroup;
+			children = (
+				F4470DF121425FAF00E9B9F9 /* ReverseInteger.h */,
+				F4470DF221425FAF00E9B9F9 /* ReverseInteger.m */,
+			);
+			path = Easy_7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +146,7 @@
 			files = (
 				F425826D214225FC002E793E /* TwoSum.m in Sources */,
 				F425826421422515002E793E /* main.m in Sources */,
+				F4470DF321425FAF00E9B9F9 /* ReverseInteger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
