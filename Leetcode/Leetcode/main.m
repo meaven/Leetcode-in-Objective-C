@@ -34,10 +34,17 @@ int main(int argc, const char * argv[]) {
     NSLog(@"%ld is%@ palindrome number", (long)x, flag ? @"" : @" not");
      */
     
+    /*
     RomanToInteger *roman = [[RomanToInteger alloc] init];
     NSString *romanString = @"MCMXCIV";
     NSInteger result = [roman romanToInteger:romanString];
     NSLog(@"%@ is %ld", romanString, (long)result);
+     */
+    
+    LongestCommonPrefix *commonPrefix = [[LongestCommonPrefix alloc] init];
+    NSArray *sourceArray = @[@"fl", @"f", @"flower", @"flow", @"flight"];
+    NSString *longestPrefix = [commonPrefix longestCommonPrefix:sourceArray];
+    NSLog(@"longest prefix is %@", longestPrefix);
     
     
     return 0;

@@ -13,5 +13,6 @@
 #import "ReverseInteger.h"
 #import "PalindromeNumber.h"
 #import "RomanToInteger.h"
+#import "LongestCommonPrefix.h"
 
 #endif /* Header_h */
