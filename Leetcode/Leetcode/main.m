@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TwoSum.h"
-#import "ReverseInteger.h"
+#import "Header.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -22,10 +21,16 @@ int main(int argc, const char * argv[]) {
     NSLog(@"resultArray = %@", resultArray);
      */
     
+    /*
     ReverseInteger *rev = [[ReverseInteger alloc] init];
-    int reversed = [rev reverseInteger:-123];
+    int reversed = [rev reverseInteger:-2147483648];
     NSLog(@"reversed = %d", reversed);
+    */
     
+    PalindromeNumber *palindrome = [[PalindromeNumber alloc] init];
+    NSInteger x = 121;
+    BOOL flag = [palindrome isPalindromeNumber:x];
+    NSLog(@"%ld is%@ palindrome number", (long)x, flag ? @"" : @" not");
     
     return 0;
 }

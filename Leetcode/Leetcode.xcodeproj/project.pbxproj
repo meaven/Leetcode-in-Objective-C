@@ -10,6 +10,7 @@
 		F425826421422515002E793E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F425826321422515002E793E /* main.m */; };
 		F425826D214225FC002E793E /* TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = F425826C214225FC002E793E /* TwoSum.m */; };
 		F4470DF321425FAF00E9B9F9 /* ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = F4470DF221425FAF00E9B9F9 /* ReverseInteger.m */; };
+		F4470DF7214261D600E9B9F9 /* PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F4470DF6214261D600E9B9F9 /* PalindromeNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,9 @@
 		F425826C214225FC002E793E /* TwoSum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoSum.m; sourceTree = "<group>"; };
 		F4470DF121425FAF00E9B9F9 /* ReverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseInteger.h; sourceTree = "<group>"; };
 		F4470DF221425FAF00E9B9F9 /* ReverseInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseInteger.m; sourceTree = "<group>"; };
+		F4470DF5214261D600E9B9F9 /* PalindromeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
+		F4470DF6214261D600E9B9F9 /* PalindromeNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromeNumber.m; sourceTree = "<group>"; };
+		F4470DF82142663800E9B9F9 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 			children = (
 				F425826A21422568002E793E /* Easy_1 */,
 				F4470DF021425FAF00E9B9F9 /* Easy_7 */,
+				F4470DF4214261BC00E9B9F9 /* Easy_9 */,
 				F425826321422515002E793E /* main.m */,
+				F4470DF82142663800E9B9F9 /* Header.h */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -86,6 +92,15 @@
 				F4470DF221425FAF00E9B9F9 /* ReverseInteger.m */,
 			);
 			path = Easy_7;
+			sourceTree = "<group>";
+		};
+		F4470DF4214261BC00E9B9F9 /* Easy_9 */ = {
+			isa = PBXGroup;
+			children = (
+				F4470DF5214261D600E9B9F9 /* PalindromeNumber.h */,
+				F4470DF6214261D600E9B9F9 /* PalindromeNumber.m */,
+			);
+			path = Easy_9;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F425826D214225FC002E793E /* TwoSum.m in Sources */,
+				F4470DF7214261D600E9B9F9 /* PalindromeNumber.m in Sources */,
 				F425826421422515002E793E /* main.m in Sources */,
 				F4470DF321425FAF00E9B9F9 /* ReverseInteger.m in Sources */,
 			);
