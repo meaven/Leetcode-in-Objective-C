@@ -12,5 +12,6 @@
 #import "TwoSum.h"
 #import "ReverseInteger.h"
 #import "PalindromeNumber.h"
+#import "RomanToInteger.h"
 
 #endif /* Header_h */

@@ -27,10 +27,18 @@ int main(int argc, const char * argv[]) {
     NSLog(@"reversed = %d", reversed);
     */
     
+    /*
     PalindromeNumber *palindrome = [[PalindromeNumber alloc] init];
     NSInteger x = 121;
     BOOL flag = [palindrome isPalindromeNumber:x];
     NSLog(@"%ld is%@ palindrome number", (long)x, flag ? @"" : @" not");
+     */
+    
+    RomanToInteger *roman = [[RomanToInteger alloc] init];
+    NSString *romanString = @"MCMXCIV";
+    NSInteger result = [roman romanToInteger:romanString];
+    NSLog(@"%@ is %ld", romanString, (long)result);
+    
     
     return 0;
 }
